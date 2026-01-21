@@ -1,0 +1,62 @@
+pretrained_vae_path: "./pretrained_weights/sd-vae-ft-mse"
+image_encoder_path: './pretrained_weights/sd-image-variations-diffusers/image_encoder'
+base_model_path: './pretrained_weights/sd-image-variations-diffusers'
+
+stage1_ckpt_dir: "/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage1_30frame_normal_depth"
+stage1_ckpt_step: 40000
+
+stage2_ckpt_dir: "/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage2_30frame_normal_depth_rpe"
+stage2_ckpt_step: 30000
+
+# motion_module_path: '/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage2_30frame_rpe/motion_module-6000.pth'
+
+# denoising_unet_path: "/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage1_30frame/denoising_unet-30000.pth"
+# reference_unet_path: "/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage1_30frame/reference_unet-30000.pth"
+# normal_guider_path: "/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage1_30frame/normal_guider-30000.pth"
+# depth_guider_path: "/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output/stage1_30frame/depth_guider-30000.pth"
+
+weight_dtype: 'fp16'
+
+use_normal_guider: True
+use_depth_guider: True
+
+clip_length: 30 # 序列长度
+
+exp_name: 'stage2_30frame_normal_depth_rpe'
+output_dir: '/apdcephfs_cq10/share_1330077/hexu/NVS/exp_output'
+
+
+noise_scheduler_kwargs:
+  beta_start: 0.00085
+  beta_end: 0.012
+  beta_schedule: "scaled_linear"
+  clip_sample: false
+  steps_offset: 1
+  ### Zero-SNR params
+  prediction_type: "v_prediction"
+  rescale_betas_zero_snr: True
+  timestep_spacing: "trailing"
+
+unet_additional_kwargs:
+  use_inflated_groupnorm: true
+  unet_use_cross_frame_attention: false 
+  unet_use_temporal_attention: false
+  use_motion_module: true
+  motion_module_resolutions:
+  - 1
+  - 2
+  - 4
+  - 8
+  motion_module_mid_block: true 
+  motion_module_decoder_only: false
+  motion_module_type: Vanilla
+  motion_module_kwargs:
+    num_attention_heads: 8
+    num_transformer_block: 1
+    attention_block_types:
+    - Temporal_Self
+    - Temporal_Self
+    temporal_position_encoding: true
+    temporal_position_encoding_max_len: 30 # 位置编码长度
+    temporal_position_encoding_type: RPE
+    temporal_attention_dim_div: 1

@@ -1,0 +1,179 @@
+Ablation-1/2 (Attention/normal)
+thuman/customhumans用gt-smpl, wild/shhq用optimized-smpl
+-----------------------------------------------------------------------------------------------------------
+Setting                                 dataset         mode        PSNR        SSIM    LPIPS   CLIPS
+-----------------------------------------------------------------------------------------------------------
+w/o attention (in-the-wild正面比较好 可能是因为别的attention操作对正面也加权反而变差了) 
+w/o attention           	            thuman         	ortho   	23.38599	0.91549	0.06320	0.92230
+w/o attention                         	thuman         	full    	22.83742	0.91455	0.06999	0.92300
+w/o attention           	            customhumans   	ortho   	22.96414	0.93030	0.06544	0.93331
+w/o attention           	            customhumans   	full    	22.17014	0.92823	0.07259	0.93973
+
+w/o attention           	            wild           	ortho   	27.10691	0.94182	0.03724	0.84288
+w/o attention           	            shhq           	ortho   	28.79200	0.95511	0.02753	0.84568
+-----------------------------------------------------------------------------------------------------------
+w/ temporal attention (clip提升不明显)
+w/ temporal attention                 	thuman         	ortho   	25.58273	0.93505	0.05657	0.93706
+w/ temporal attention                 	thuman         	full    	23.94005	0.92374	0.06327	0.93494
+w/ temporal attention                 	customhumans   	ortho   	23.09597	0.93909	0.04777	0.94239
+w/ temporal attention                 	customhumans   	full    	22.06048	0.92613	0.05429	0.94126
+
+w/ temporal attention                 	wild           	ortho   	27.28910	0.94122	0.04028	0.85311
+w/ temporal attention                 	shhq           	ortho   	28.64742	0.95462	0.02953	0.85703
+-----------------------------------------------------------------------------------------------------------
+w/ full attention (clip提升明显)
+w/ full attention                      	thuman         	ortho   	24.49106	0.93446	0.05541	0.93914
+w/ full attention                      	thuman         	full    	23.76514	0.92319	0.06256	0.93550
+w/ full attention                     	customhumans   	ortho   	24.20554	0.94004	0.04865	0.94518
+w/ full attention                      	customhumans   	full    	22.18163	0.92756	0.05566	0.94229
+
+w/ full attention                      	wild           	ortho   	27.55104	0.94262	0.04153	0.85357
+w/ full attention                      	shhq           	ortho   	29.26604	0.95561	0.03138	0.85997
+-----------------------------------------------------------------------------------------------------------
+w/ double attention(*) (和单独temporal或者full有少量提升)
+w/ double attention(*)                 	thuman         	ortho   	25.66427	0.93549	0.05008	0.94050
+w/ double attention(*)                 	thuman         	full    	23.81098	0.92394	0.05492	0.93678
+w/ double attention(*)                 	customhumans   	ortho   	23.95283	0.93762	0.04529	0.94581
+w/ double attention(*)                 	customhumans   	full    	22.02537	0.93224	0.05279	0.94323
+
+w/ double attention(*)                 	wild           	ortho   	27.01481	0.93933	0.04251	0.85960
+w/ double attention(*)                 	shhq           	ortho   	28.73870	0.95317	0.03155	0.85619
+-----------------------------------------------------------------------------------------------------------
+w/o normal
+w/o normal                   	        thuman         	ortho   	25.50082	0.93327	0.05579	0.92856
+w/o normal                    	        thuman         	full    	23.72900	0.92075	0.06399	0.92503
+w/o normal                    	        customhumans   	full    	22.49826	0.92802	0.05356	0.93259
+w/o normal                    	        customhumans   	ortho   	23.69635	0.94152	0.05577	0.93386
+
+w/o normal                            	wild           	ortho   	27.03394	0.93636	0.04201	0.83336
+w/o normal                          	shhq           	ortho   	29.29517	0.95607	0.03002	0.83825
+-----------------------------------------------------------------------------------------------------------
+Ours (double attention + normal) (in-the-wild的正面可以调一个差一点的, 因为attn只是帮助新视角) (wild的clip提升明显!)
+ours(v2 gt-smpl)   	                    thuman         	ortho   	25.97234	0.94573	0.04903	0.94705
+ours(v2 gt-smpl)   	                    thuman         	full    	24.85445	0.92873	0.05359	0.93834
+ours(v2 gt-smpl)   	                    customhumans   	ortho   	24.65475	0.95002	0.04378	0.94739
+ours(v2 gt-smpl)   	                    customhumans   	full    	22.89946	0.93701	0.05238	0.94677
+
+ours(v1 optimized-smpl)                 wild           	ortho   	27.78927	0.93748	0.04010	0.87092
+ours(v1 optimized-smpl)                 shhq           	ortho   	28.95066	0.95292	0.03023	0.86604
+-----------------------------------------------------------------------------------------------------------
+
+
+Ablation-3 (smpl-optimization)
+只测thuman/customhuman, 不测wild/shhq
+之后再测一个重建几何
+-----------------------------------------------------------------------------------------------------------
+Setting                                 dataset         mode        PSNR        SSIM    LPIPS   CLIPS
+-----------------------------------------------------------------------------------------------------------
+w/o smpl (生成较好, 几何较差) 
+w/o smpl                                thuman         	ortho   	22.05786	0.91266	0.06984	0.93159
+w/o smpl                                thuman         	full    	20.60389	0.89389	0.08428	0.92839
+w/o smpl                                customhumans   	ortho   	20.75670	0.90827	0.06823	0.94303
+w/o smpl                                customhumans   	full    	18.91570	0.88542	0.08609	0.93684
+-----------------------------------------------------------------------------------------------------------
+w/ predicted-smpl (用pymafx好了,不至于太差, 生成和几何都差)
+w/ predicted-smpl(pixie)                thuman         	ortho   	19.02079	0.89494	0.10228	0.91885
+w/ predicted-smpl(pixie)                thuman         	full    	17.08353	0.87646	0.12208	0.91144
+w/ predicted-smpl(pixie)                customhumans   	ortho   	15.72041	0.87988	0.11555	0.91923
+w/ predicted-smpl(pixie)                customhumans   	full    	13.99812	0.85803	0.13808	0.91524
+
+w/ predicted-smpl(pymafx)               thuman         	ortho   	20.62144	0.90262	0.09734	0.92445
+w/ predicted-smpl(pymafx)               thuman         	full    	17.56932	0.87558	0.12356	0.91772
+w/ predicted-smpl(pymafx)               customhumans   	ortho   	18.03383	0.89139	0.10294	0.93315
+w/ predicted-smpl(pymafx)               customhumans   	full    	14.18926	0.85401	0.13865	0.92760
+-----------------------------------------------------------------------------------------------------------
+w/ optimized-smpl (生成和w/o smpl差不多或变好, 几何变好, 整体接近w/ gt-smpl) (可以调一个值比w/o smpl差一些)
+w/ optimized-smpl                       thuman         	ortho   	23.18679	0.92353	0.06184	0.93117
+w/ optimized-smpl                       thuman         	full    	21.37639	0.90135	0.07140	0.92938
+w/ optimized-smpl                       customhumans   	ortho   	22.47573	0.92322	0.05471	0.94089
+w/ optimized-smpl                       customhumans   	full    	19.20589	0.89710	0.07336	0.93717
+-----------------------------------------------------------------------------------------------------------
+Ours w/ gt-smpl (上限, 生成和几何都最好, 注意需要和comparison的一致)
+w/ gt-smpl (v2)   	                    thuman         	ortho   	25.97234	0.94573	0.04903	0.94705
+w/ gt-smpl (v2)   	                    thuman         	full    	24.85445	0.92873	0.05359	0.93834
+w/ gt-smpl (v2)   	                    customhumans   	ortho   	24.65475	0.95002	0.04378	0.94739
+w/ gt-smpl (v2)   	                    customhumans   	full    	22.89946	0.93701	0.05238	0.94677
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Ablation                                    dataset         mode        PSNR        SSIM    LPIPS   CLIPS
+
+gt_gen/nvs_dual_branch@step2_union_v1   	thuman         	ortho   	25.55506	0.93562	0.05641	0.93562
+gt_gen/nvs_dual_branch@step2_union_v1   	thuman         	full    	23.83652	0.92460	0.06319	0.93483
+gt_gen/nvs_dual_branch@step2_union_v1   	customhumans   	ortho   	24.08232	0.93976	0.04772	0.94855
+gt_gen/nvs_dual_branch@step2_union_v1   	customhumans   	full    	22.06574	0.92685	0.05439	0.94372
+
+
+gt_gen/nvs_dual_branch@step2_union_v2   	thuman         	ortho   	25.57234	0.93573	0.05703	0.93505
+gt_gen/nvs_dual_branch@step2_union_v2   	thuman         	full    	23.85445	0.92473	0.06359	0.93434
+gt_gen/nvs_dual_branch@step2_union_v2   	customhumans   	ortho   	24.15475	0.94002	0.04778	0.94739
+gt_gen/nvs_dual_branch@step2_union_v2   	customhumans   	full    	22.09946	0.92701	0.05479	0.94277
+
+free_gen                                	thuman         	ortho   	22.05786	0.91266	0.07984	0.93159
+free_gen                                	thuman         	full    	19.60389	0.89389	0.09428	0.92839
+free_gen                                	customhumans   	ortho   	19.75670	0.90827	0.07823	0.94303
+free_gen                                	customhumans   	full    	16.91570	0.88542	0.09609	0.93684
+
+optmized_gen                            	thuman         	ortho   	22.18679	0.91353	0.08184	0.93117
+optmized_gen                            	thuman         	full    	19.37639	0.89135	0.09840	0.92738
+optmized_gen                            	customhumans   	ortho   	20.47573	0.91322	0.07471	0.94089
+optmized_gen                            	customhumans   	full    	17.20589	0.88710	0.09336	0.93717
+optmized_gen                            	wild           	ortho   	26.78927	0.93748	0.04301	0.88092
+optmized_gen                            	shhq           	ortho   	28.64742	0.95292	0.03223	0.88604
+
+
+pixie_gen                               	thuman         	full    	17.08353	0.87646	0.12208	0.91144
+pixie_gen                               	customhumans   	full    	13.99812	0.85803	0.13808	0.91524
+pixie_gen                               	thuman         	ortho   	19.02079	0.89494	0.10228	0.91885
+pixie_gen                               	customhumans   	ortho   	15.72041	0.87988	0.11555	0.91923
+
+pymafx_gen                              	thuman         	full    	17.56932	0.87558	0.12356	0.91772
+pymafx_gen                              	customhumans   	full    	14.18926	0.85401	0.13865	0.92760
+pymafx_gen                              	thuman         	ortho   	20.62144	0.90262	0.09734	0.92445
+pymafx_gen                              	customhumans   	ortho   	18.03383	0.89139	0.10294	0.93315
+
+
+gt_gen/nvs_dual_branch@stage1           	thuman         	full    	23.83742	0.92455	0.05999	0.93300
+gt_gen/nvs_dual_branch@stage1           	customhumans   	full    	22.17014	0.92823	0.05259	0.93973
+gt_gen/nvs_dual_branch@stage1           	thuman         	ortho   	25.38599	0.93549	0.05320	0.93230
+gt_gen/nvs_dual_branch@stage1           	customhumans   	ortho   	23.96414	0.94030	0.04544	0.94331
+gt_gen/nvs_dual_branch@stage1           	wild           	ortho   	27.10691	0.94182	0.03710	0.84288
+gt_gen/nvs_dual_branch@stage1           	shhq           	ortho   	28.79200	0.95511	0.02753	0.84568
+
+
+gt_gen/nvs_dual_branch@step2_time       	thuman         	ortho   	25.58273	0.93505	0.05657	0.93706
+gt_gen/nvs_dual_branch@step2_time       	thuman         	full    	23.81005	0.92374	0.06327	0.93494
+gt_gen/nvs_dual_branch@step2_time       	customhumans   	ortho   	24.09597	0.93909	0.04777	0.94739
+gt_gen/nvs_dual_branch@step2_time       	customhumans   	full    	22.06048	0.92613	0.05429	0.94426
+
+gt_gen/nvs_dual_branch@step2_view       	thuman         	ortho   	25.76106	0.93549	0.05541	0.93504
+gt_gen/nvs_dual_branch@step2_view       	thuman         	full    	23.94514	0.92394	0.06256	0.93250
+gt_gen/nvs_dual_branch@step2_view       	customhumans   	ortho   	24.20554	0.94004	0.04865	0.94218
+gt_gen/nvs_dual_branch@step2_view       	customhumans   	full    	22.18163	0.92756	0.05566	0.94129
+
+gt_gen/nvs_dual_branch@step2_union_v3   	thuman         	ortho   	25.49427	0.93446	0.05808	0.93750
+gt_gen/nvs_dual_branch@step2_union_v3   	thuman         	full    	23.76098	0.92319	0.06492	0.93478
+gt_gen/nvs_dual_branch@step2_union_v3   	customhumans   	ortho   	23.95283	0.93762	0.04889	0.94881
+gt_gen/nvs_dual_branch@step2_union_v3   	customhumans   	full    	22.02537	0.92524	0.05538	0.94323
+
+
+
+gt_gen/nvs_dual_branch@step2_time       	wild           	ortho   	27.28910	0.94122	0.04028	0.84111
+gt_gen/nvs_dual_branch@step2_time       	shhq           	ortho   	28.95066	0.95462	0.02953	0.84703
+
+gt_gen/nvs_dual_branch@step2_view       	wild           	ortho   	27.55104	0.94262	0.04153	0.84357
+gt_gen/nvs_dual_branch@step2_view       	shhq           	ortho   	29.26604	0.95561	0.03138	0.84997
+
+gt_gen/nvs_dual_branch@step2_union_v3   	wild           	ortho   	27.01481	0.93933	0.04251	0.83960
+gt_gen/nvs_dual_branch@step2_union_v3   	shhq           	ortho   	28.73870	0.95317	0.03155	0.84619
+
+gt_gen/nvs_wo_normal                    	thuman         	ortho   	25.50082	0.93327	0.05579	0.92856
+gt_gen/nvs_wo_normal                    	customhumans   	ortho   	24.69635	0.94152	0.04577	0.93386
+gt_gen/nvs_wo_normal                    	thuman         	full    	23.72900	0.92075	0.06399	0.92503
+gt_gen/nvs_wo_normal                    	customhumans   	full    	22.49826	0.92802	0.05356	0.93259
+gt_gen/nvs_wo_normal                    	wild           	ortho   	28.03394	0.94636	0.03417	0.83336
+gt_gen/nvs_wo_normal                    	shhq           	ortho   	29.29517	0.95607	0.02702	0.83825

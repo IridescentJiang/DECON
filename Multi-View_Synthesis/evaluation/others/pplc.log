@@ -1,0 +1,19 @@
+Method                                      dataset         PPLC
+
+gt_gen/nvs_dual_branch@step2_union_v1   	thuman         	0.99765
+gt_gen/nvs_dual_branch@step2_union_v1   	customhumans   	1.03975
+
+gt_gen/nvs_dual_branch@step2_union_v2   	thuman         	1.00406
+gt_gen/nvs_dual_branch@step2_union_v2   	customhumans   	1.04526
+
+free_gen                                	customhumans   	1.03043
+free_gen                                	thuman         	0.93946
+
+sv3d                                    	customhumans   	0.94577
+sv3d                                    	thuman         	0.93084
+
+gt_gen/nvs_dual_branch@step2_union_v1   	customhumans   	2  	1.46736
+gt_gen/nvs_dual_branch@step2_union_v1   	thuman         	2  	1.38997
+sv3d                                    	customhumans   	2  	1.36331
+free_gen                                	thuman         	2  	1.32352
+sv3d                                    	thuman         	2  	1.31547

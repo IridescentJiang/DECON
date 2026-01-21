@@ -1,0 +1,1902 @@
+[
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0000/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0001/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0002/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0003/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0004/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0005/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0006/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0007/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0008/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0009/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0010/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0011/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0012/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0013/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0014/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0015/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0016/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0017/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0018/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0019/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0020/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0021/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0022/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0023/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0024/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0025/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0026/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0027/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0028/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0029/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0030/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0031/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0032/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0033/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0034/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0035/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0036/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0037/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0038/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0039/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0040/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0041/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0042/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0043/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0044/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0045/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0046/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0047/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0048/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0049/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0050/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0051/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0052/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0053/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0054/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0055/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0056/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0057/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0058/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0059/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0060/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0061/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0062/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0063/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0064/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0065/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0066/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0067/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0068/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0069/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0070/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0071/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0072/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0073/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0074/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0075/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0076/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0077/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0078/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0079/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0080/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0081/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0082/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0083/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0084/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0085/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0086/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0087/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0088/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0089/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0090/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0091/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0092/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0093/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0094/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0095/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0096/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0097/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0098/marigold/normal"
+        }
+    },
+    {
+        "scan": {
+            "rgb": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/scan/rgb",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/scan/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/scan/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/scan/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/scan/mask"
+        },
+        "smplx": {
+            "semantic": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/smplx/semantic",
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/smplx/normal",
+            "depth": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/smplx/depth",
+            "disparity": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/smplx/disparity",
+            "mask": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/smplx/mask"
+        },
+        "ref": {
+            "normal": "/root/autodl-tmp/dataset/THuman2/ortho_5/0099/marigold/normal"
+        }
+    }
+]

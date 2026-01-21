@@ -1,0 +1,82 @@
+Comparison
+thuman/customhumans用gt-smpl, wild/shhq用optimized-smpl
+-----------------------------------------------------------------------------------
+Baseline            dataset         mode        PSNR        SSIM    LPIPS   CLIPS
+-----------------------------------------------------------------------------------
+zero123            	thuman         	ortho     	15.50985	0.82922	0.21464	0.79179
+zero123           	thuman         	full      	12.25013	0.79778	0.24722	0.77318
+zero123         	customhumans   	ortho     	13.93107	0.81148	0.21096	0.81819
+zero123            	customhumans   	full      	10.27205	0.76633	0.24960	0.80029
+
+zero123             wild           	ortho     	26.06520	0.91861	0.08247	0.72244
+zero123             shhq           	ortho     	26.71358	0.92732	0.07324	0.69383
+-----------------------------------------------------------------------------------
+zero123-xl       	thuman         	ortho     	14.53129	0.79100	0.26168	0.78296
+zero123-xl      	thuman         	full      	11.85822	0.76993	0.27436	0.77337
+zero123-xl       	customhumans   	ortho     	13.23771	0.78953	0.22318	0.81116
+zero123-xl       	customhumans   	full      	9.942910    0.74423	0.26434	0.79559
+
+zero123-xl          wild           	ortho     	25.36576	0.91057	0.09110	0.71974
+zero123-xl         	shhq           	ortho     	25.65376	0.91505	0.08469	0.68918
+-----------------------------------------------------------------------------------
+syncdreamer     	thuman         	ortho     	13.20163	0.84054	0.20887	0.74906
+syncdreamer     	thuman         	full      	12.40523	0.82957	0.22303	0.74215
+syncdreamer     	customhumans   	ortho     	11.45856	0.82358	0.21106	0.76726
+syncdreamer     	customhumans   	full      	10.42828	0.80456	0.22741	0.76841
+
+syncdreamer         wild           	ortho     	14.71743	0.82754	0.17509	0.62969
+syncdreamer         shhq           	ortho     	15.73279	0.85084	0.15184	0.61665
+-----------------------------------------------------------------------------------
+wonder3d       	    thuman         	ortho     	20.62334	0.90530	0.11632	0.83378
+wonder3d        	thuman         	full      	19.27864	0.89158	0.12621	0.82357
+wonder3d        	customhumans   	ortho     	19.06693	0.90036	0.11873	0.83843
+wonder3d       	    customhumans   	full      	17.22053	0.88280	0.13208	0.83280
+
+wonder3d            wild           	ortho     	26.04023	0.92774	0.06838	0.75138
+wonder3d            shhq           	ortho     	25.63766	0.94415	0.06015	0.73544
+-----------------------------------------------------------------------------------
+wonder3d_trained	customhumans   	ortho     	18.27751	0.88915	0.12231	0.86266
+wonder3d_trained	thuman         	ortho     	21.23091	0.90555	0.11034	0.88190
+wonder3d_trained	customhumans   	full      	17.04815	0.87642	0.13286	0.85246
+wonder3d_trained	thuman         	full      	20.20030	0.89464	0.11719	0.87197
+
+wonder3d_trained    wild           	ortho     	26.08148	0.92112	0.06421	0.75697
+wonder3d_trained    shhq           	ortho     	26.43003	0.92776	0.06595	0.74304
+-----------------------------------------------------------------------------------
+sv3d             	thuman         	ortho     	19.81441	0.89564	0.11456	0.88758
+sv3d            	thuman         	full      	16.46793	0.86798	0.14005	0.87682
+sv3d             	customhumans   	ortho     	18.26299	0.89227	0.11079	0.91169
+sv3d             	customhumans   	full      	14.27535	0.85708	0.14061	0.89924
+
+sv3d                wild           	ortho     	27.37345	0.94161	0.03027	0.81800
+sv3d                shhq           	ortho     	28.21344	0.95814	0.02550	0.81776
+-----------------------------------------------------------------------------------
+animate-anyone 	    thuman         	ortho     	23.60602	0.92305	0.06952	0.91996
+animate-anyone  	thuman         	full      	22.10485	0.91040	0.07757	0.91676
+animate-anyone 	    customhumans   	ortho     	22.03281	0.91861	0.06049	0.93123
+animate-anyone 	    customhumans   	full      	20.43469	0.90529	0.06796	0.92886
+
+animate-anyone      wild           	ortho     	23.62567	0.91074	0.06053	0.84959
+animate-anyone      shhq           	ortho     	25.70002	0.93363	0.04350	0.85352
+-----------------------------------------------------------------------------------
+champ            	thuman         	ortho     	24.88614	0.92978	0.06337	0.92670
+champ           	thuman         	full      	23.27903	0.91786	0.07091	0.92401
+champ             	customhumans   	ortho     	23.19682	0.93050	0.05517	0.93831
+champ             	customhumans   	full      	21.40993	0.91781	0.06271	0.93442
+
+champ               wild           	ortho     	24.83473	0.92034	0.05262	0.85231
+champ               shhq           	ortho     	26.98521	0.94225	0.03643	0.85671
+-----------------------------------------------------------------------------------
+mimicmotion
+
+
+-----------------------------------------------------------------------------------
+ours(v2 gt-smpl)   	thuman         	ortho   	25.97234	0.94573	0.04903	0.94705
+ours(v2 gt-smpl)   	thuman         	full    	24.85445	0.92873	0.05359	0.93834
+ours(v2 gt-smpl)   	customhumans   	ortho   	24.65475	0.95002	0.04378	0.94739
+ours(v2 gt-smpl)   	customhumans   	full    	22.89946	0.93701	0.05238	0.94677
+
+ours(v1 optimized)  wild           	ortho   	27.78927	0.93748	0.04010	0.87092
+ours(v1 optimized)  shhq           	ortho   	28.95066	0.95292	0.03023	0.86604
+-----------------------------------------------------------------------------------
+

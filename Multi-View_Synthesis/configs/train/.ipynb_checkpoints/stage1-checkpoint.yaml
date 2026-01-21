@@ -1,0 +1,105 @@
+data:
+  train_bs: 2 # 12
+  train_width: 512
+  train_height: 512 
+  meta_paths:
+    - "new_data_distribution/thuman2_ortho_5_meta.json"
+    # - "data_distribution/thuman2_ortho_5_meta.json"
+    # - "data_distribution/thuman3_ortho_5_meta.json"
+    # - "data_distribution/2k2k_ortho_5_meta.json"
+    # - "data_distribution/cityuhuman_ortho_5_meta.json"
+    # - "data_distribution/customhumans_ortho_5_meta.json"
+    # - "data_distribution/thuman2_ortho_6_meta.json"
+    # - "data_distribution/thuman3_ortho_6_meta.json"
+    # - "data_distribution/2k2k_ortho_6_meta.json"
+    # - "data_distribution/cityuhuman_ortho_6_meta.json"
+    # - "data_distribution/customhumans_ortho_6_meta.json"
+
+  n_sample_frames: 24 # 只用于中间log的时候
+
+solver:
+  gradient_accumulation_steps: 1
+  mixed_precision: 'fp16'
+  enable_xformers_memory_efficient_attention: True 
+  gradient_checkpointing: False 
+  max_train_steps: 120000
+  max_grad_norm: 1.0
+  # lr
+  learning_rate: 1.0e-5
+  scale_lr: False 
+  lr_warmup_steps: 1
+  lr_scheduler: 'constant'
+
+  # optimizer
+  use_8bit_adam: False
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_weight_decay:  1.0e-2
+  adam_epsilon: 1.0e-8
+
+val:
+  validation_steps: 200 # 2000
+
+noise_scheduler_kwargs:
+  num_train_timesteps: 1000
+  beta_start:          0.00085
+  beta_end:            0.012
+  beta_schedule:       "scaled_linear"
+  steps_offset:        1
+  clip_sample:         false
+
+base_model_path: './pretrained_weights/sd-image-variations-diffusers/unet'
+# base_model_path: './pretrained_weights/CosmicMan-SD'
+vae_model_path: './pretrained_weights/sd-vae-ft-mse'
+image_encoder_path: './pretrained_weights/sd-image-variations-diffusers/image_encoder'
+controlnet_openpose_path: './pretrained_weights/control_v11p_sd15_openpose/diffusion_pytorch_model.bin'
+
+weight_dtype: 'fp16'  # [fp16, fp32]
+uncond_ratio: 0.1
+noise_offset: 0.05
+snr_gamma: 5.0
+enable_zero_snr: True 
+
+drop_smplx_ratio: 0.3 # 训练时drop掉smplx的比例 改
+unet_attention_mode: "read_concat_attn"  # ["read_concat_attn", "read_cross_attn"] 改
+use_clip_cross_attention: false
+camera_use_radius: false # 如果为true，则camera_dim=16 R+T;如果为false，则camera_dim=9 只用R矩阵
+
+use_semantic_guider: True # rgb用semantic
+use_normal_guider: True # normal用normal
+use_depth_guider: False # 暂时不用depth
+pose_guider_pretrain: True # 统一决定是否预训练
+
+pose_guider_kwargs:
+  conditioning_embedding_channels: 320
+  conditioning_channels: 3
+  block_out_channels: [16, 32, 96, 256]
+  use_guidance_attention: False # pose不用attention 是否加上attention（实际上加了一个transformer3D attn0和attn1）改
+  attention_num_heads: 8
+
+unet_additional_kwargs:
+  use_motion_module: false
+  unet_use_temporal_attention: false
+  use_camera_embedding: true
+  camera_dim: 9
+    # attention_indices是角度形式！例如[0,90,180,270],在mutual_attention前传的时候会转为帧索引用于计算
+  down_block_attention_indices: [[0],[0],[0],[]] # down的最后一个block没有transformer 改
+  mid_block_attention_index: [0] # 改
+  up_block_attention_indices: [[],[0],[0],[0]] # 改
+  
+  # 下面是branch新增的参数
+  branch_num: 1
+  copy_first_n_block: 1
+  copy_last_n_block: 1
+  fusion: "avg" # ["avg", "learn", "sum"]
+
+
+seed: 224116
+# resume_from_checkpoint: "latest"
+resume_from_checkpoint: False
+checkpointing_steps: 200000
+# checkpointing_steps: 1
+save_model_epoch_interval: 200000 # 50epoch大约是3750iter 1epoch 75iter (bs=10*8时)
+# save_model_epoch_interval: 1
+exp_name: 'stage1'
+output_dir: '/root/autodl-tmp/mvsys/output'

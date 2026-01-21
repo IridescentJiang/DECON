@@ -1,0 +1,52 @@
+pretrained_vae_path: "./pretrained_weights/sd-vae-ft-mse"
+image_encoder_path: './pretrained_weights/sd-image-variations-diffusers/image_encoder'
+base_model_path: './pretrained_weights/CosmicMan-SD'
+
+### 以下路径要改
+stage1_ckpt_dir: "/apdcephfs_cq10/share_1330077/hexu/NVS/nvs_exp/cosmic_wo_clip/step1"
+stage1_ckpt_step: 31000
+
+stage2_ckpt_dir: "/apdcephfs_cq10/share_1330077/hexu/NVS/nvs_exp/cosmic_wo_clip/step2_18dx20v_norm0_attn0"
+stage2_ckpt_step: 16695
+
+validation_dir: "/apdcephfs_cq10/share_1330077/hexu/NVS/data_rendering/in-the-wild/econ_6"
+
+clip_length: 20 # 序列长度
+
+exp_name: 'step2_18dx20v_norm0_attn0'
+output_dir: '/apdcephfs_cq10/share_1330077/hexu/NVS/nvs_exp/cosmic_wo_clip'
+
+## 以上路径要改
+
+weight_dtype: 'fp16'
+
+noise_scheduler_kwargs:
+  beta_start: 0.00085
+  beta_end: 0.012
+  beta_schedule: "scaled_linear"
+  clip_sample: false
+  steps_offset: 1
+  ### Zero-SNR params
+  prediction_type: "v_prediction"
+  rescale_betas_zero_snr: True
+  timestep_spacing: "trailing"
+
+# unet_additional_kwargs:
+#   use_motion_module: false
+#   unet_use_temporal_attention: false
+#   use_camera_embedding: true
+#   camera_dim: 9
+#   use_corss_view_attention: True # true的话全连接self attn false的话就是正常self attn
+
+unet_additional_kwargs:
+  use_motion_module: false
+  unet_use_temporal_attention: false
+  use_camera_embedding: true
+  camera_dim: 9
+  use_clip_cross_attention: false
+
+use_normal_guider: True
+use_depth_guider: True
+# unet_attention_mode: "read_multi_view"  # ["read_single_view", "read_multi_view"]
+camera_use_radius: false # 如果为true，则camera_dim=16  R+T
+                            # 如果为false，则camera_dim=9 只用R矩阵
