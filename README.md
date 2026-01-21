@@ -1,4 +1,20 @@
-This is the code for "**DECON: Reconstruction of Clothed-Geometric Multiple Humans from a Single Image via Geometry-Guided Decoupling**".
+# DECON: Reconstruction of Clothed-Geometric Multiple Humans from a Single Image via Geometry-Guided Decoupling
+
+Official PyTorch implementation for the paper:
+
+> **[DECON: Reconstruction of Clothed-Geometric Multiple Humans from a Single Image via Geometry-Guided Decoupling]() [AAAI 2026]**
+>
+> Yiming Jiang, Wenfeng Song\*,  Shuai Li\*, Aimin Hao
+>
+> \* Wenfeng Song and Shuai Li are corresponding authors. Email: songwenfenga@gmail.com, lishuai@buaa.edu.cn
+
+
+
+<img src="https://pic-jym.oss-cn-beijing.aliyuncs.com/img/image-20260122012422866.png" alt="image-20260122012422866" style="zoom:50%;" />
+
+> **Given a single RGB image, DECON can reconstruct clothed-geometric multi-human interacting 3D results.** The reconstructed models exhibit three critical properties: (1) clearly separated individuals, (2) anatomically complete bodies with preserved clothing details, and (3) spatial relationships between humans faithfully match the input.
+
+
 
 
 
@@ -88,3 +104,23 @@ See the ``Post-processing/SMPL_parts_replacement`` directory for details
 **mesh refinement**
 
 See the ``Post-processing/mesh_refinement`` directory for details
+
+
+
+## Citation
+
+```bibtex
+@inproceedings{jiang2026decon,
+  author    = {Yiming Jiang and Wenfeng Song and Shuai Li and Aimin Hao},
+  title     = {DECON: Reconstruction of Clothed-Geometric Multiple Humans from a Single Image via Geometry-Guided Decoupling},
+  booktitle = {Proceedings of the 40th AAAI Conference on Artificial Intelligence (AAAI-26)},
+  year      = {2026},
+  pages     = {},
+}
+```
+
+
+
+## **Acknowledgement**
+
+We heavily borrow the code from [MagicMan](https://github.com/thuhcsi/MagicMan).  We also gratefully acknowledge the THU for providing the [THuman2.0 dataset](https://github.com/ytrock/THuman2.0-Dataset) dataset. Any third-party packages are owned by their respective authors and must be used under their respective licenses.
